@@ -1,0 +1,21 @@
+$default: #2b2b2b;
+$primary: #111c4e;
+$secondary: #435cc8;
+$font-size: 12px;
+$font-size-m: 1.4vw;
+
+%transition { transition: all .3s ease;}
+
+@mixin pd($padding) {
+    padding: $padding;
+}
+
+@mixin mg($margin) {
+    margin: $margin;
+}
+
+@mixin bd($border-width,$border-style,$border-color) {
+    border-width: $border-width;
+    border-style: $border-style;
+    border-color: $border-color;
+}
